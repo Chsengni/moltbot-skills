@@ -1,0 +1,26 @@
+{
+  "skill": {
+    "name": "Disk Cleanup",
+    "description": "Execute C drive cleanup batch script to free up disk space",
+    "version": "1.0.0",
+    "author": "System",
+    "category": "system-tools",
+    "platform": "windows",
+    "execution": {
+      "scriptPath": "./scripts/清理C盘_fixed.bat",
+      "requiresAdmin": true,
+      "timeout": 300000,
+      "backupRequired": false
+    },
+    "permissions": {
+      "admin": true,
+      "fileSystem": true,
+      "system": true
+    },
+    "safety": {
+      "verificationLevel": "high",
+      "testedOn": ["Windows 10", "Windows 11"],
+      "riskLevel": "medium"
+    }
+  }
+}

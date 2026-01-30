@@ -1,0 +1,20 @@
+{
+  "name": "disk-cleanup-skill",
+  "version": "1.0.0",
+  "description": "A skill to clean up the C drive by executing a batch script with administrative privileges",
+  "main": "exec_script.js",
+  "scripts": {
+    "start": "node exec_script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "disk cleanup",
+    "windows",
+    "system maintenance",
+    "admin",
+    "batch script"
+  ],
+  "author": "Skill Creator",
+  "license": "MIT",
+  "dependencies": {}
+}
