@@ -7,7 +7,7 @@
     "category": "system-tools",
     "platform": "windows",
     "execution": {
-      "scriptPath": "./scripts/清理C盘_fixed.bat",
+      "scriptPath": "./scripts/disk-cleanup.bat",
       "requiresAdmin": true,
       "timeout": 300000,
       "backupRequired": false

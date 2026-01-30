@@ -14,7 +14,7 @@ function executeCleanupScript() {
     }
 
     // 获取脚本路径
-    const scriptPath = path.join(__dirname, 'scripts', 'disk-cleanup.bat');
+    const scriptPath = path.join(__dirname, 'disk-cleanup.bat');
     
     // 检查脚本是否存在
     if (!fs.existsSync(scriptPath)) {
